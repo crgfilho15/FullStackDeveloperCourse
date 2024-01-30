@@ -150,14 +150,21 @@ switch (opcao) {
         }
         break;
     case 12:
-        // Verificar Aprovação com Distinção
-        let notaAprovacao = parseFloat(prompt("Digite a nota de aprovação: "));
-        if (notaAprovacao === 10) {
+        // Leitura das notas do aluno
+        let nota1 = parseFloat(prompt("Digite a primeira nota: "));
+        let nota2 = parseFloat(prompt("Digite a segunda nota: "));
+        
+        // Cálculo da média
+        let media = (nota1 + nota2) / 2;
+        
+        // Verificação das condições e exibição das mensagens
+        if (media === 10) {
             console.log("Aprovado com Distinção");
+        } else if (media >= 7) {
+            console.log("Aprovado");
         } else {
-            console.log("Nota de aprovação não é 10.");
+            console.log("Reprovado");
         }
-        break;
     default:
         console.log("Opção inválida.");
 }
