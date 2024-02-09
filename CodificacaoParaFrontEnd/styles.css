@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+.contact-info, .personal-summary, .competencies, .skills, .work-history, .education, .certifications {
+    margin-bottom: 20px;
+}
+
+.contact-info h2, .personal-summary h2, .competencies h2, .skills h2, .work-history h2, .education h2, .certifications h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+}
+
+.contact-info p, .contact-info li, .personal-summary p, .personal-summary li, .competencies li, .skills li, .work-history li, .education li, .certifications li {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.work-history h3, .education h3, .certifications h3 {
+    margin-top: 10px;
+}
+
+.work-history p {
+    margin-top: 5px;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
