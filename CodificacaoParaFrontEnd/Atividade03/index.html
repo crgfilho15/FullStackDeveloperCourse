@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Flexbox Example</title>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+    }
+    #container1 {
+        display: flex;
+        justify-content: flex-start;
+        background-color: yellow;
+        width: 200px;
+        align-items: center;
+    }
+    #container2 {
+        display: flex;
+        justify-content: space-between;
+        width: 200px;
+        background-color: blueviolet;
+    }
+    #container3 {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        width: 200px;
+        background-color: rosybrown;
+    }
+    #container4 {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        width: 200px;
+        background-color: aqua;
+    }
+    .box {
+        width: 20px;
+        height: 20px;
+        margin: 5px;
+    }
+</style>
+</head>
+<body>
+    <div id="container1">
+        <h1 style="text-align: left;">Cabeçalho</h1>
+    </div>
+    <div id="container2">
+        <div class="box" style="background-color: red;"></div>
+        <div class="box" style="background-color: yellow;"></div>
+        <div class="box" style="background-color: green;"></div>
+        <div class="box" style="background-color: purple;"></div>
+    </div>
+    <div id="container3">
+        <div class="box" style="background-color: green;"></div>
+        <div class="box" style="background-color: blue;"></div>
+        <div class="box" style="background-color: purple;"></div>
+    </div>
+    <div id="container4">
+        <div class="box" style="background-color: green;"></div>
+        <div class="box" style="background-color: blue;"></div>
+        <div class="box" style="background-color: yellow;"></div>
+    </div>
+</body>
+</html>
