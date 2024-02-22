@@ -1,0 +1,100 @@
+:root {
+    --cor-texto: black;
+}
+
+.barraMenu {
+    display: flex;
+    background-color: bisque;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 40px;
+    color: blue;
+}
+
+.barraMenu img {
+    width: 150px;
+}
+
+.menu {
+    display: flex;
+    font-size: 20px;
+}
+
+.menu li {
+    padding: 10px;
+    margin-left: 30px;
+}
+
+.menu li a {
+    padding: 10px;
+    border: 2px solid black;
+    display: block;
+    color: var(--cor-texto);
+    text-decoration: none;
+}
+
+.divs {
+    display: flex;
+    margin: 10px;
+    gap: 10px;
+}
+
+.div1,
+.div2,
+.div3 {
+    display: flex;
+    border: 1px solid black;
+    border-radius: 2px;
+}
+
+.divisao {
+    background-color: black;
+    height: 10px;
+    margin: 0px;
+}
+
+.divisao1 {
+    background-color: #fff;
+    height: 10px;
+    margin: 0px;
+}
+
+.imagens {
+    display: flex;
+    justify-content: space-around;
+}
+
+.imagemDestaque {
+    border: 2px solid black;
+    box-shadow: red 2px 2px 3px;
+}
+
+.imgDestaque {
+    width:200px;
+}
+
+.footer{
+    background: linear-gradient(to right, #b3b4e9, rgb(66, 33, 214)); 
+    width:100%;
+    padding: 20px;
+}
+
+.footer_section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer_Senai{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.Contato{
+    display: flex;
+    margin: 30px;
+    gap: 10px;
+    align-items: center;
+    padding: 0px 20px;
+}
