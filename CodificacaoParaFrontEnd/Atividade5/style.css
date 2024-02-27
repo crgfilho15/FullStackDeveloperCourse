@@ -116,7 +116,7 @@ a {
     max-width: 30%;
     /* padding: 0 10px; */
     border-radius: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .img-text h3 {
@@ -160,11 +160,8 @@ a {
 .text-card {
     padding: 0 10px 10px;
     margin: 0;
-    height: 100%;
-}
-
-p {
     text-align: justify;
+    /* height: 100%; */
 }
 
 .rodape {
@@ -223,4 +220,14 @@ p {
 
 .icone-rede-social {
     font-size: 2vw;
+}
+
+.list-card ul {
+    padding: 0 10px 10px;
+    margin: 0;
+    margin: 0;
+}
+
+.list-card li {
+    list-style-type: circle;
 }
