@@ -1,0 +1,111 @@
+:root{
+
+}
+
+html{
+    font-family: sans-serif;
+    
+}
+.section1{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+}
+
+.logo-title{
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.title{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+li{
+    list-style-type: none;
+}
+
+.button-list{
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+    list-style-type: none;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+.img-turma{
+    display:flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.img-text-group{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+   
+}
+
+.img-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1.5px solid black;
+    width:30%;
+    padding: 0 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+
+}
+
+p{
+    text-align: justify;
+}
+
+footer{
+    border: 1.5px solid black;
+}
+
+fieldset{
+    width: 30%;
+    height: auto;
+}
+
+.rodape{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rodape-endereco{
+    display: flex;
+    align-items: center;
+}
+
+.contato{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+
+}
+
+.address {
+    width: 30%;
+    font-size: 14px;
+}
