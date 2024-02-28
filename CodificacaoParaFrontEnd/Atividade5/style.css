@@ -147,7 +147,7 @@ a {
     flex-direction: column;
     align-items: center;
     border: 1.5px solid black;
-    max-width: 30%;
+    width: 30%;
     /* padding: 0 10px; */
     border-radius: 10px;
     margin-bottom: 20px;
@@ -188,6 +188,7 @@ a {
 
 .title-text-card li {
     list-style-type: circle;
+    text-align: start;
 }
 
 .cent_title-card {
@@ -235,9 +236,8 @@ a {
 
 .rodape-info {
     display: flex;
+    width: 90%;
     align-items: flex-start;
-    justify-content: center;
-    width: 80%;
     justify-content: space-evenly;
 }
 
@@ -267,6 +267,7 @@ a {
 
 .address p {
     margin: 10px 0 0 0;
+    text-align: justify;
 }
 
 .redes-sociais h3 {
@@ -280,12 +281,36 @@ a {
     font-size: 2vw;
 }
 
-.list-card ul {
-    padding: 0 10px 10px;
-    margin: 0;
-    margin: 0;
+.parceiros {
+    margin-top: 10px;
+    max-width: 20%;
 }
 
-.list-card li {
-    list-style-type: circle;
+.parceiros h3 {
+    max-width: 100%;
+    margin: 0;
+    border-style: solid;
+    border-bottom-color: var(--cor1);
+    border-width: 0 0 3px 0;
+}
+
+.container-empresas {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start;
+    margin: 0 10px;
+}
+
+.empresas {
+    display: flex;
+    padding: 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 10px 0 0 0;
+}
+
+.logo-empresa {
+    max-width: 90%;
+    padding-bottom: 5px;
 }
