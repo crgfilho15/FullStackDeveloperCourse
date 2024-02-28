@@ -90,6 +90,32 @@ a {
     text-decoration: none;
 }
 
+.mosaico {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    width: 100%;
+}
+
+.imagens {
+    display: flex;
+    flex-wrap: wrap;  
+    align-items: center;
+    justify-content: center;
+    width: 95%;
+}
+
+.img_pessoa {
+    width: 11%;
+}
+
+.img_pessoa:hover {
+    transform: scale(1.8);
+    z-index: 1;
+}
+
 .quadro-img-turma {
     display:flex;
     width: 100%;
@@ -142,7 +168,7 @@ a {
     text-align: center;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .img-card {
@@ -164,6 +190,12 @@ a {
     list-style-type: circle;
 }
 
+.cent_title-card {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
 .title-card {
     margin: 10px 0;
     max-width: 80%;
@@ -176,10 +208,18 @@ a {
     margin: 0;
     text-align: justify;
     display: flex;
-    /* text-align: start; */
     justify-content: flex-start;
     align-items: flex-start;
-    /* height: 100%; */
+}
+
+.text-card ul li {
+    /* padding: 30px; */
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 
 .rodape {
