@@ -1,0 +1,134 @@
+body {
+    background-color: #34495E;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.2fr 0.2fr 1fr 1fr 1fr;
+    gap: 10px 10px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "title title title"
+        "header header header"
+        "area1 area3 area4"
+        "area2 area3 area5"
+        "area2 . area6";
+    /* justify-items: center; */
+    width: 80%;
+}
+
+.title {
+    grid-area: title;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.header {
+    grid-area: header;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+    padding: 10px;
+    border-top: 2px solid #3598DB;
+    color: #3598DB;
+}
+
+.header span {
+    font-size: 1.3rem;
+}
+
+.card {
+    background-color: white;
+    border-top: 2px solid #3598DB;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.card img {
+    width: 80%;
+}
+
+.area1 {
+    grid-area: area1;
+}
+
+.title-card {
+    padding: 0 10px;
+}
+
+.text-card {
+    padding: 0 10px;
+    text-align: justify;
+}
+
+.leia-mais {
+    color: red;
+    padding-left: 10px;
+}
+
+.area2 {
+    grid-area: area2;
+}
+
+.quadro-img {
+    display: flex;
+    justify-content: center;
+}
+
+.padding-img-card2 {
+    margin-bottom: 16px;
+}
+
+.area3 {
+    grid-area: area3;
+}
+
+.img-border-radius-card3 {
+    border-radius: 100%;
+}
+
+.area4 {
+    grid-area: area4;
+}
+
+.quadro-leia-mais {
+    width: 100%;
+    background-color: #E84C3D;
+    padding: 5px 10px;
+    width: 100%;
+    box-sizing: border-box;
+    color: white;
+}
+
+.area5 {
+    grid-area: area5;
+}
+
+.title-card5 {
+    background-color: #3598DB;
+    padding: 5px 10px;
+    color: white;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.area6 {
+    grid-area: area6;
+}
+
+.linha {
+    background-color: #3598DB;
+    margin: 15px 0px;
+    height: 3px;
+    width: 98%;
+}
