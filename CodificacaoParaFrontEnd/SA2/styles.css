@@ -76,6 +76,10 @@ body {
     min-height: 300px;
 }
 
+.botao-download {
+    margin: 15px;
+}
+
 .img-livro {
     max-height: 500px;
     /* object-fit: cover; */
