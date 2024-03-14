@@ -1,3 +1,7 @@
+body {
+    background-color: antiquewhite;
+}
+
 .logo img {
     width: 5vw;
 }
@@ -14,19 +18,67 @@
     padding: 10px 60px;
 }
 
-.titulo-video {
-    background-color: antiquewhite;
-    padding: 10px 20px;
-    color: #06234A;
+.button-menu {
+    margin: 10px
 }
 
-.videos {
+.button-menu li {
+    margin: 10px
+}
+
+.button-menu button{
+    background-color: #06234A;
+    color: white;
+}
+
+.nav-pills .nav-link.active {
+    color: white;
+    background-color: navy;
+    border-color: navy;
+}
+
+.nav-pills .nav-link:hover {
+    color: white;
+}
+
+.nav-link:disabled {
+    color: white;
+    background-color: grey;
+}
+
+/* .nav-tabs .nav-link.active {
+    color: white;
+    background-color :navy;
+    border-color: navy;
+}
+
+.nav-tabs .nav-link:hover {
+    color: white;
+}
+
+.nav-link:disabled {
+    color: white;
+    background-color: grey;
+} */
+
+/* .titulo-video {
+    background-color: antiquewhite;
+    padding: 20px 20px 0 20px;
+    color: #06234A;
+} */
+
+.videos, .livros {
     padding: 20px;
     background-color: antiquewhite;
 }
 
 .card-video {
     min-height: 300px;
+}
+
+.img-livro {
+    max-height: 500px;
+    /* object-fit: cover; */
 }
 
 .footer {
