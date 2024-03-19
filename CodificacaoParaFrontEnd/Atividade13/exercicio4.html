@@ -1,0 +1,76 @@
+<html>
+  <head>
+    <title>Formulário Padrão HTML COM JavaScript</title>
+    <script>
+      nome1 = window.prompt("Qual seu nome?");
+      if (nome1 != null && nome1 != "") {
+        document.write("Olá, " + nome1 + "!");
+      } else {
+        document.write("Olá, visitante!");
+      }
+    </script>
+  </head>
+  <body>
+    <script>
+      function validar() {
+        if (document.cadastro.nome.value == "") {
+          window.alert("Você deve preencher o campo Nome.");
+          document.cadastro.nome.focus();
+          return false;
+        }
+        if (document.cadastro.observacoes.value == "") {
+          window.alert("Você deve colocar alguma observação...");
+          document.cadastro.observacoes.focus();
+          return false;
+        }
+      }
+    </script>
+    <form
+      action="mailto:teste@gmail.com"
+      method="POST"
+      enctype="text/plain"
+      name="cadastro"
+    >
+      <p>
+        Por favor, preencha os campos abaixo e depois clique no botão Enviar.
+        Caso necessite apagar os dados, dê um clique no botão Limpar.<br />
+        Muito Obrigado! <br /><br /><br />
+      </p>
+      Nome Completo: <input type="TEXT" name="nome" size="35" /> Seu e-mail:
+      <input type="TEXT" name="email" size="35" /> <br />
+      Sexo:<br />
+      <input type="RADIO" name="sexo" value="f" /> Feminino <br />
+      <input type="RADIO" name="sexo" value="m" /> Masculino <br /><br />
+      Estado Civil:<br />
+      <input type="RADIO" name="civil" value="s" /> Solteiro <br />
+      <input type="RADIO" name="civil" value="c" /> Casado <br />
+      <input type="RADIO" name="civil" value="e" /> Enrolado <br /><br />
+      Bens que possui:<br />
+      <input type="CHECKBOX" name="bens" value="c" /> Casa <br />
+      <input type="CHECKBOX" name="bens" value="a" /> Automovel <br />
+      <input type="CHECKBOX" name="bens" value="m" /> Moto <br /><br />
+      Faixa de idade:
+      <select name="faixaidade">
+        <option value="3a10">3 a 10 anos</option>
+        <option value="11a25">11 a 25 anos</option>
+        <option value="26a35">26 a 35 anos</option>
+        <option value="36a55">36 a 55 anos</option>
+        <option value="56a90">56 a 90 anos</option>
+      </select>
+
+      Hobby preferido:
+      <select name="hobby">
+        <option value="livros">Ler livros</option>
+        <option value="musica">Ouvir música</option>
+        <option value="cinema">Assistir filmes</option>
+        <option value="esporte">Praticar esportes</option>
+        <option value="games">Jogar games</option></select
+      ><br /><br />
+      Observações Gerais:<br />
+      <textarea name="observacoes" rows="5" cols="60"></textarea><br />
+      <input type="SUBMIT" value="Enviar os dados" />
+      <input type="RESET" value="Limpar os dados" />
+    </form>
+    <h1>Atividade 01</h1>
+  </body>
+</html>
