@@ -1,0 +1,17 @@
+header {
+    display: flex;
+    justify-content: center;
+
+    background: var(--roxo);
+    color: var(--branco);
+    padding: 1.4rem;
+}
+
+header span {
+    padding: 0 1.3rem;
+}
+
+a {
+    text-decoration: none;
+    color: var(--branco);
+}

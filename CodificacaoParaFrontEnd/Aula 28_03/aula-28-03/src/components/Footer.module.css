@@ -1,0 +1,6 @@
+footer {
+    background: var(--laranja);
+    padding: 1.4rem;
+    text-align: center;
+    font-weight: bold;
+}

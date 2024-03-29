@@ -58,6 +58,10 @@ a:hover {
     text-align: center;
 }
 
+.title h1 {
+    font-size: 2.5vw;
+}
+
 .nav-buttons {
     width: 50%;
 }
@@ -78,6 +82,7 @@ li {
     border-radius: 10px;
     list-style-type: none;
     font-size: 1.5vw;
+    margin-top: 10px;
 }
 
 .button-list:hover {
@@ -184,6 +189,8 @@ a {
     /* justify-content: flex-start;
     align-items: flex-start; */
     /* height: 100%; */
+    font-size: 1.6vw;
+    width: 100%;
 }
 
 .title-text-card li {
@@ -283,7 +290,7 @@ a {
 
 .parceiros {
     margin-top: 10px;
-    max-width: 20%;
+    max-width: 30%;
 }
 
 .parceiros h3 {
@@ -296,7 +303,7 @@ a {
 
 .container-empresas {
     display: flex;
-    justify-content: space-evenly;
+    /* justify-content: space-evenly; */
     align-items: start;
     margin: 0 10px;
 }
@@ -306,11 +313,20 @@ a {
     padding: 0;
     flex-direction: column;
     align-items: center;
+    flex-wrap: wrap;
+    max-height: 120px;
     justify-content: space-evenly;
     margin: 10px 0 0 0;
+    width: 100%;
+}
+
+.empresas a {
+    min-width: 100px;
+    /* min-height: 50px; */
 }
 
 .logo-empresa {
-    max-width: 90%;
-    padding-bottom: 5px;
+    /* max-width: 30%; */
+    max-width: 80px;
+    margin-bottom: 5px;
 }
