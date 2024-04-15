@@ -1,0 +1,12 @@
+.banner {
+    align-items: center;
+    width: 100%;
+}
+
+.image {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    box-sizing: border-box;
+    border-radius: 0 0 20px 20px;
+}

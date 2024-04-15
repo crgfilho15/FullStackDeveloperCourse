@@ -1,0 +1,16 @@
+:root {
+    --azul-escuro: #06234a;
+    --cor-principal: #EC7611;
+    --cor-principal2: #0096D1;
+    --cor-hover: #EC7611;
+}
+
+body, header {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}

@@ -1,0 +1,98 @@
+.divisor {
+    background-color: var(--cor-principal);
+    min-height: 5px;
+    min-width: 100%;
+    /* margin: 0 0 20px 0; */
+}
+
+.espacamentoTop {
+    margin-top: 20px;
+}
+
+.direitosPagina {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /* max-width: 90%; */
+    /* flex: 1; */
+    /* position: fixed; */
+    /* bottom: 0; */
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    /* position: fixed;
+    bottom: 0; */
+}
+
+.rodape {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    box-sizing: border-box;
+    /* margin-top: 30px; */
+    /* position: fixed; */
+    /* left: 0; */
+    /* bottom: 0; */
+}
+
+.divRodape {
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+}
+
+.infoRodape {
+    margin: 0 10px;
+    text-align: justify;
+}
+
+.tituloRodape {
+    margin-bottom: 20px;
+    border-bottom: 3px solid var(--cor-principal2);
+}
+
+.tituloRodape:hover {
+    border-bottom: 3px solid var(--cor-principal);
+}
+
+.imgContato {
+    width: 4vw;
+    height: auto;
+    margin: 5px;
+}
+
+.tituloRodapeTexto {
+    border-bottom: 3px solid var(--cor-principal2);
+    margin-bottom: 5px;
+}
+
+.tituloRodapeTexto:hover {
+    border-bottom: 3px solid var(--cor-principal);
+}
+
+.tamMax {
+    max-width: 60%;
+}
+
+.textoScroll {
+    overflow-y: scroll; /* Adiciona uma barra de rolagem vertical quando necessário */
+    height: 100px; /* Altura máxima do texto antes da barra de rolagem aparecer */
+    margin-bottom: 10px;
+}
+
+.texto {
+    margin-right: 10px;
+}
+
+.img {
+    /* max-width: 15%; */
+    width: 3vw;
+    height: auto;
+    margin: 5px;
+}
+
+a {
+    text-decoration: none; /* Remove o sublinhado */
+}

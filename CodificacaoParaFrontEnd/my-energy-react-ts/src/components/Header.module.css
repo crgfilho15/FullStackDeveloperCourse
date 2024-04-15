@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    background-color: antiquewhite;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content:space-between ;
+    /* background-color: #0096D1; */
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    /* min-height: 100vh; */
+}
+
+/* Header */
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    align-items: center;
+    padding: 30px 25px;
+    color: antiquewhite;
+    max-height: 50px;
+    margin: 0;
+    /* background-color: var(--cor-principal); */
+    border-bottom: 4px solid var(--cor-principal);
+    /* border-style: solid;
+    border-width: 4px;
+    border-color: var(--cor-principal); */
+    /* border-radius: 0 0 15px 15px; */
+}
+
+.logotipo {
+    display: flex;
+    align-items: center;
+}
+
+.bolt {
+    color: var(--cor-principal);
+}
+
+.myEnergy {
+    margin-left: 10px;
+    color: var(--cor-principal2);
+    /* font-size: 3vw; */
+}
+
+.botoes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.botao {
+    background-color: var(--cor-principal2);
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    color: antiquewhite;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.botao:hover {
+    background-color: var(--cor-hover); /* Estilo para quando o mouse passa por cima */
+}
+
+.botaoDisabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
