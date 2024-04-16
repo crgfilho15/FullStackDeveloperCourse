@@ -62,7 +62,7 @@ export function CardAparelhosCadastrados({ registros, handleRemoverRegistro, tot
                                 <td className={styles.semBorda}></td>
                                 <td className={styles.semBorda}></td>
                                 <td className={styles.semBorda}></td>
-                                <td id="total-tabela">{total.toFixed(2)}</td>
+                                <td id="total-tabela">R${total.toFixed(2)}</td>
                             </tr>
                         </tfoot>
                     </table>
