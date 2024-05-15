@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora de Área de Terreno</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <label for="largura">Largura do terreno (m):</label>
+      <input type="number" id="largura" min="0" step="0.01" required />
+      <label for="comprimento">Comprimento do terreno (m):</label>
+      <input type="number" id="comprimento" min="0" step="0.01" required />
+      <button onclick="calcularArea()">Calcular Área</button>
+      <div id="resultado"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
